@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1707759148 source:d:\study\embedded track\projects\mini-vehicle-control-system-using-c\vehicle system\main.c
+	<stdio.h>
+	"vehicle.h"
+
+1707759148 d:\study\embedded track\projects\mini-vehicle-control-system-using-c\vehicle system\vehicle.h
+
