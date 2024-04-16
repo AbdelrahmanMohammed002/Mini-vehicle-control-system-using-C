@@ -102,7 +102,6 @@ void handleEngineStart(struct Vehicle *vehicle) {
 void handleEngineShutdown(struct Vehicle *vehicle) {
     if (GetVehicleState(vehicle) == ON) {
         printf("Turning off the vehicle engine...\n");
-        // Implement safe engine shutdown logic here (e.g., gradual RPM decrease)
         SetVehicleState(vehicle, OFF);
     } else {
         printf("The engine is already off.\n");
